@@ -7,6 +7,8 @@ public class User {
 	private String lastNameUser;
 	private String telUser;
 	private String emailUser;
+	private String login;
+	private String pwd;
 
 	public int getIdUser() {
 		return idUser;
@@ -59,6 +61,22 @@ public class User {
 		this.lastNameUser = lastNameUser;
 		this.telUser = telUser;
 		this.emailUser = emailUser;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public String getPwd() {
+		return pwd;
+	}
+
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
 	}
 
 }
